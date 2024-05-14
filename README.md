@@ -9,7 +9,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 Python3 is required to run this game.
 
 
-## Usage Instructions
+## Usage Instructions
+
 To play the game run the Hangan_Game_Final.py script from you Command Line.
 
 - You can also import the script and choose you're own list of words for the computer to choose from at random for you to guess from. You would just need to call the play_game(word_list) function.
