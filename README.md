@@ -8,6 +8,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## Installation Instructions
 Python3 is required to run this game.
 
+
 ## Usage Instructions
 To play the game run the Hangan_Game_Final.py script from you Command Line.
 
