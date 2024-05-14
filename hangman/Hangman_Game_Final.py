@@ -5,14 +5,14 @@ class Hangman:
     This class is used to run a game of hangman.
     
     Attributes passed as parameters to each instance of the class:
-        word_list (list): a list of words that the computer can choose from at random.
-        num_lives (int): the number of lives the user starts with a the beginning of the game.
+        - word_list (list): a list of words that the computer can choose from at random.
+        - num_lives (int): the number of lives the user starts with a the beginning of the game.
 
     Attributes defined using other attributes:
-        word (string): a word chosen at random by the computer for he user to guess.
-        word_guessed (list): a list containing each letter of the word the user has to guess; each letter is set "_". 
-        num_letters (int): the number of unique letters in the word the user has to guess.
-        list_of_guesses (list): a list of the letters the user has already guessed, to avoid duplication.
+        - word (string): a word chosen at random by the computer for he user to guess.
+        - word_guessed (list): a list containing each letter of the word the user has to guess; each letter is set "_". 
+        - num_letters (int): the number of unique letters in the word the user has to guess.
+        - list_of_guesses (list): a list of the letters the user has already guessed, to avoid duplication.
     '''  
     def __init__(self, word_list, num_lives=5):
         self.word_list = word_list
@@ -65,8 +65,11 @@ class Hangman:
 def play_game(word_list):
     '''
     This function starts and plays the game.
-    The function takes in the word_list as a parameter. The word list is a list of words the computer can choose from the play the game.
-    The user wins by guess all the letters in the word before they lose all their lives from wrong guesses.
+    - The function takes in the word_list as a parameter. The word list is a list of words the computer can choose from the play the game.
+    - The user wins by guess all the letters in the word before they lose all their lives from wrong guesses.
+    
+    *** You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor *** 
+    *** Please feel free to update the word list to include more words for the computer to choose from ***
     '''
     game = Hangman(word_list)
     while True:
@@ -78,7 +81,7 @@ def play_game(word_list):
             print("Congratulations. You won the game!")
             break
 
-        
-word_list = ["apple", "blueberry", "pear", "banana", "lime"]
-play_game(word_list)
+if __name__ == '__main__':          
+    word_list = ["apple", "blueberry", "pear", "banana", "lime"]
+    play_game(word_list)
 
