@@ -68,7 +68,7 @@ def play_game(word_list):
     - The function takes in the word_list as a parameter. The word list is a list of words the computer can choose from the play the game.
     - The user wins by guess all the letters in the word before they lose all their lives from wrong guesses.
     
-    *** You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor *** 
+    *** You can adjust the number of lives by either updating the default value (5) for the num_lives paramter in the Hangman class constructor or passing a different number as a second arguement when create the game instance of the Hangman class*** 
     *** Please feel free to update the word list to include more words for the computer to choose from ***
     '''
     game = Hangman(word_list)
