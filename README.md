@@ -19,6 +19,12 @@ To play the game run the Hangman_Game_Final.py script from you Command Line.
   
 - Please feel free to update the word list to include more words for the computer to choose from.
 
+The game rules are as follows:
+- Try guessing a letter for the word chosen by the computer.
+- If you guess correctly your letter will be added to the word and display the word on the screen with the correcly guessed letter included. You will be able to see how many letters the word has and how many letters you have left to guess.
+- You lose a life for every wrong guess. Once you have reached zero lives the game is over and you have list.
+- To win simply guess the word before your lives run out!
+ 
 ## File Structure
 - Hangman_Game_Final.py contains the game.
 - Within the Milestone foler, there are additional 'Milestone' python files which were my step-by-step work-in-progress files as I worked through the milestones of the project. 
