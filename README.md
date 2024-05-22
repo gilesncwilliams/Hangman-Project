@@ -62,12 +62,12 @@ The default number of lives you start with is 5.
 
 .
  * hangman
-   * milestones                                             #archive of each milestone completed during the project creation
+   * milestones                      #archive of each milestone completed during the project creation
      * milestone_2.py
      * milestone_3.py
      * milestone_4.py
      * milestone_5.py    
-   * hangman_game.py
+   * hangman_game.py                 
  * README.md
  * .gitignore
 
