@@ -38,7 +38,8 @@ You can adjust the number of lives by updating the default value for the num_liv
 ![Screenshot 2024-05-22 at 17 11 40](https://github.com/gilesncwilliams/hangman_project/assets/150936411/cfb9ecd5-fafe-44c1-84b3-1806d73d501a)
 
 
-The game rules are as follows:
+## Game Rules 
+
 - Try guessing a letter from the word chosen by the computer.
 - If you guess correctly your letter will be added to the word.
 - The word with your correct guess will be displayed in terminal.
