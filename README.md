@@ -13,26 +13,27 @@ Follow these instruction to [clone this repository](https://docs.github.com/en/r
 
 ## Usage Instructions
 
-To play the game, ensure the current working directory is set to the location you cloned the hangman_project repository to. 
+### How to play the game
 
+To play the game, ensure the current working directory is set to the location you cloned the hangman_project repository to. 
 Then run the hangman_game.py script from you Command Line.
 
 
 ![Screenshot 2024-05-22 at 17 21 23](https://github.com/gilesncwilliams/hangman_project/assets/150936411/1d71f32d-4423-4362-a96e-ffb03b88d3fe)
 
-
+### List of Words
 
 You can create your own list of words for the computer to choose from. 
-
 To do so simply replace the words in the word_list within the hangman_game.py code.
 
 
 ![Screenshot 2024-05-22 at 17 11 26](https://github.com/gilesncwilliams/hangman_project/assets/150936411/2c99b437-3135-4453-bfab-5f756cd6751c)
 
-
-The default number of lives you start with is 5.
+### Number of Lives
 
 You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor. 
+The default number of lives you start with is 5.
+
 
 
 ![Screenshot 2024-05-22 at 17 11 40](https://github.com/gilesncwilliams/hangman_project/assets/150936411/cfb9ecd5-fafe-44c1-84b3-1806d73d501a)
