@@ -6,10 +6,12 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 
+
 ## Installation Instructions
 Python3 is required to run this game.
 
 Follow these instruction to [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to your local machine.
+
 
 
 
@@ -54,6 +56,8 @@ The default number of lives you start with is 5.
   
 ![Screenshot 2024-05-22 at 17 18 30](https://github.com/gilesncwilliams/hangman_project/assets/150936411/6827fb26-1df4-411a-9048-09ddaa22842b)
 
+
+
 ## File Structure
 
 .
@@ -62,6 +66,7 @@ The default number of lives you start with is 5.
 │   ├── milestones          # archived python files for each milestone of the project 
 ├── .gitignore                  
 └── README.md
+
 
 
 ## License Information
