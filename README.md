@@ -1,14 +1,16 @@
 # Hangman Game Project
 
-## Introdution
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+
+
 
 ## Installation Instructions
 Python3 is required to run this game.
 
 Follow these instruction to [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to your local machine.
+
 
 
 ## Usage Instructions
@@ -39,7 +41,7 @@ The default number of lives you start with is 5.
 ![Screenshot 2024-05-22 at 17 11 40](https://github.com/gilesncwilliams/hangman_project/assets/150936411/cfb9ecd5-fafe-44c1-84b3-1806d73d501a)
 
 
-## Game Rules 
+### Game Rules 
 
 - Try guessing a letter from the word chosen by the computer.
 - If you guess correctly your letter will be added to the word.
