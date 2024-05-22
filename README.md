@@ -9,6 +9,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 Python3 is required to run this game.
 
 
+<img width="435" alt="Screenshot 2024-05-22 at 16 51 43" src="https://github.com/gilesncwilliams/hangman_project/assets/150936411/c7bfb5c8-5e74-4b00-818b-c3ac5d687eb4">
+
+
+
 ## Usage Instructions
 
 To play the game run the Hangman_Game_Final.py script from you Command Line.
@@ -26,9 +30,14 @@ The game rules are as follows:
 - To win simply guess the word before your lives run out!
  
 ## File Structure
-- Hangman_Game_Final.py contains the game.
-- Within the Milestone foler, there are additional 'Milestone' python files which were my step-by-step work-in-progress files as I worked through the milestones of the project. 
-- hangman_Template.py is a template file provided by AiCore to help faciliate the creation of the game.
+
+.
+├── hangman                 # folder containing python files
+│   ├── hangman_game.py     # final version of the game
+│   ├── milestones          # archived python files for each milestone of the project 
+├── .gitignore                  
+└── README.md
+
 
 ## License Information
 This repo is unlicensed as it is intended only for training purposes.
