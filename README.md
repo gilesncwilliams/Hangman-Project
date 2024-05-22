@@ -11,26 +11,31 @@ Python3 is required to run this game.
 Follow these instruction to [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to your local machine.
 
 
-
-
-
-
 ## Usage Instructions
 
-To play the game run the Hangman_Game_Final.py script from you Command Line.
+To play the game ensure the current working directory is set to the location you cloned the hangman_project repo. 
+Then run the hangman_game.py script from you Command Line.
 
-- You can also import the script and choose you're own list of words for the computer to choose from at random for you to guess from. You would just need to call the play_game(word_list) function.
+![Screenshot 2024-05-22 at 17 08 13](https://github.com/gilesncwilliams/hangman_project/assets/150936411/c17d122c-b6a4-4453-80a6-801deda5f8a4)
 
-- You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor.
-  
-- Please feel free to update the word list to include more words for the computer to choose from.
+You can create your own list of words for the computer to choose from. Replace the words in the word_list within in the hangman_game.py code.
+
+![Screenshot 2024-05-22 at 17 11 26](https://github.com/gilesncwilliams/hangman_project/assets/150936411/2c99b437-3135-4453-bfab-5f756cd6751c)
+
+The default number of lives you start with is 5.
+You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor. 
+
+![Screenshot 2024-05-22 at 17 11 40](https://github.com/gilesncwilliams/hangman_project/assets/150936411/cfb9ecd5-fafe-44c1-84b3-1806d73d501a)
 
 The game rules are as follows:
-- Try guessing a letter for the word chosen by the computer.
-- If you guess correctly your letter will be added to the word and display the word on the screen with the correcly guessed letter included. You will be able to see how many letters the word has and how many letters you have left to guess.
-- You lose a life for every wrong guess. Once you have reached zero lives the game is over and you have list.
+- Try guessing a letter from the word chosen by the computer.
+- If you guess correctly your letter will be added to the word.
+- The word with your correct guess will be displayed in terminal.
+![Screenshot 2024-05-22 at 17 16 35](https://github.com/gilesncwilliams/hangman_project/assets/150936411/01e6701c-eff5-4142-a053-f9e7f04e8b5b)
+- For every wrong guess you lose a life. Once you have reached zero lives the game is over and you have lost.
 - To win simply guess the word before your lives run out!
- 
+![Screenshot 2024-05-22 at 17 18 30](https://github.com/gilesncwilliams/hangman_project/assets/150936411/6827fb26-1df4-411a-9048-09ddaa22842b)
+
 ## File Structure
 
 .
@@ -42,4 +47,4 @@ The game rules are as follows:
 
 
 ## License Information
-This repo is unlicensed as it is intended only for training purposes.
+This repo is unlicensed as it was intended only for training purposes.
