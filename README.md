@@ -8,6 +8,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## Installation Instructions
 Python3 is required to run this game.
 
+Follow these instruction to[clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)).
+
+
+
 To clone the repo to your local machine:
 
 Above the list of files, click  Code.
