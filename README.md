@@ -14,18 +14,25 @@ Follow these instruction to [clone this repository](https://docs.github.com/en/r
 ## Usage Instructions
 
 To play the game ensure the current working directory is set to the location you cloned the hangman_project repo. 
+
 Then run the hangman_game.py script from you Command Line.
+
 
 ![Screenshot 2024-05-22 at 17 08 13](https://github.com/gilesncwilliams/hangman_project/assets/150936411/c17d122c-b6a4-4453-80a6-801deda5f8a4)
 
+
 You can create your own list of words for the computer to choose from. Replace the words in the word_list within in the hangman_game.py code.
 
+
 ![Screenshot 2024-05-22 at 17 11 26](https://github.com/gilesncwilliams/hangman_project/assets/150936411/2c99b437-3135-4453-bfab-5f756cd6751c)
+
 
 The default number of lives you start with is 5.
 You can adjust the number of lives by updating the default value for the num_lives paramter in the Hangman class constructor. 
 
+
 ![Screenshot 2024-05-22 at 17 11 40](https://github.com/gilesncwilliams/hangman_project/assets/150936411/cfb9ecd5-fafe-44c1-84b3-1806d73d501a)
+
 
 The game rules are as follows:
 - Try guessing a letter from the word chosen by the computer.
