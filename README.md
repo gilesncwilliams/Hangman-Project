@@ -61,17 +61,15 @@ The default number of lives you start with is 5.
 ## File Structure
 
 .
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
+ * hangman
+   * milestones                     #archive of each milestone completed during the project creation
+     * milestone_2.py
+     * milestone_3.py
+     * milestone_4.py
+     * milestone_5.py    
+   * hangman_game.py
+ * README.md
+ * .gitignore
 
 
 ## License Information
